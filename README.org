@@ -1,0 +1,13 @@
+* Swaywm-Repl 
+
+** Usage
+
+** Installation
+
+** Author
+
++ Ross Edwards (redwards64@hotmail.com)
+
+** Copyright
+
+Copyright (c) 2024 Ross Edwards (redwards64@hotmail.com)
