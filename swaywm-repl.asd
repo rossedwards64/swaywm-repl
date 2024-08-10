@@ -6,7 +6,7 @@
 		:components
 		((:file "swaywm-repl"))))
   :build-operation "program-op"
-  :build-pathname "swaywm-repl"
+  :build-pathname "build/swaywm-repl"
   :entry-point "swaywm-repl::main"
   :in-order-to ((asdf:test-op (asdf:test-op :swaywm-repl/test))))
 

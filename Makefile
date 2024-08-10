@@ -1,4 +1,5 @@
 SYSTEM_NAME = swaywm-repl
+BUILD_DIR = build
 TARGET = $(SYSTEM_NAME)
 ENTRYPOINT = $(SYSTEM_NAME):main
 
@@ -12,4 +13,4 @@ $(TARGET):
 	     --eval '(quit)'
 
 clean:
-	-rm -f $(TARGET)
+	-rm -f $(BUILD_DIR)/$(TARGET)
