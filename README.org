@@ -1,4 +1,4 @@
-* Swaywm-Repl 
+* SwayWM-Repl 
 
 ** Usage
 
