@@ -5,9 +5,10 @@
   :components ((:module "src"
 		:components
 		((:file "swaywm-repl"))))
+  :defsystem-depends-on (:sb-bsd-sockets)
   :build-operation "program-op"
   :build-pathname "build/swaywm-repl"
-  :entry-point "swaywm-repl::main"
+  :entry-point "swaywm-repl:main"
   :in-order-to ((asdf:test-op (asdf:test-op :swaywm-repl/test))))
 
 (asdf:defsystem "swaywm-repl/test"
